@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <style>
+      .cls-1 { fill: #1a365d; }
+      .cls-2 { fill: #d4af37; }
+    </style>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="50" cy="50" r="48" fill="#f7fafc" stroke="#1a365d" stroke-width="4"/>
+  
+  <!-- Scale base -->
+  <rect x="47" y="65" width="6" height="20" class="cls-1"/>
+  <rect x="35" y="82" width="30" height="4" class="cls-1"/>
+  
+  <!-- Scale beam -->
+  <rect x="25" y="47" width="50" height="3" class="cls-2"/>
+  
+  <!-- Left scale pan -->
+  <ellipse cx="30" cy="45" rx="8" ry="3" class="cls-1"/>
+  <line x1="30" y1="42" x2="30" y2="50" stroke="#1a365d" stroke-width="2"/>
+  
+  <!-- Right scale pan -->
+  <ellipse cx="70" cy="45" rx="8" ry="3" class="cls-1"/>
+  <line x1="70" y1="42" x2="70" y2="50" stroke="#1a365d" stroke-width="2"/>
+  
+  <!-- Center pivot -->
+  <circle cx="50" cy="48" r="3" class="cls-2"/>
+</svg> 
