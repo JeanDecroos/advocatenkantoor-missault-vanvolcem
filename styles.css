@@ -415,6 +415,57 @@ p {
     margin-bottom: 1rem;
 }
 
+/* Why Choose Section */
+.why-choose {
+    padding: 80px 0;
+    background: var(--white);
+}
+
+.why-choose-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2rem;
+}
+
+.why-card {
+    background: var(--background-light);
+    padding: 2rem;
+    border-radius: 15px;
+    text-align: center;
+    transition: all 0.3s ease;
+    border: 1px solid var(--border-color);
+}
+
+.why-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-lg);
+    border-color: var(--accent-color);
+}
+
+.why-icon {
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+    font-size: 2rem;
+    margin: 0 auto 1.5rem;
+}
+
+.why-card h3 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+}
+
+.why-card p {
+    color: var(--text-light);
+    line-height: 1.6;
+}
+
 /* Contact Section */
 .contact {
     padding: 80px 0;
@@ -593,6 +644,10 @@ p {
     }
 
     .lawyers-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .why-choose-grid {
         grid-template-columns: 1fr;
     }
 
